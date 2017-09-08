@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>TimeLine</title>
+    <link rel="stylesheet" href="./src/timeline.css">
+</head>
+
+<body>
+    <div id="container"></div>
+    <!--<script src="src/example/data.js"></script>-->
+    <script src="build/main.bundle.js"></script>
+    <script>
+        var container = document.getElementById('container');
+        var timeLine = new TimeLine(container, { data });
+    </script>
+</body>
+
+</html>
